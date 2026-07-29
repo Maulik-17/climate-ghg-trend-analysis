@@ -1,0 +1,8 @@
+.venv/
+.idea/
+models/
+sample.ipynb
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+publish_to_github.sh

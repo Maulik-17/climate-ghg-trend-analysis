@@ -1,0 +1,481 @@
+country,year,scenario,co2_projected
+China,2025,BAU,11714.178157307362
+China,2025,Moderate Mitigation,12043.25626
+China,2025,Aggressive Mitigation,11674.585149999999
+China,2026,BAU,11823.55921420916
+China,2026,Moderate Mitigation,11802.3911348
+China,2026,Aggressive Mitigation,11090.8558925
+China,2027,BAU,11919.04852812291
+China,2027,Moderate Mitigation,11566.343312104
+China,2027,Aggressive Mitigation,10536.313097875
+China,2028,BAU,12002.410394701921
+China,2028,Moderate Mitigation,11335.016445861918
+China,2028,Aggressive Mitigation,10009.497442981248
+China,2029,BAU,12075.18503842607
+China,2029,Moderate Mitigation,11108.316116944681
+China,2029,Aggressive Mitigation,9509.022570832185
+China,2030,BAU,12138.71707035529
+China,2030,Moderate Mitigation,10886.149794605788
+China,2030,Aggressive Mitigation,9033.571442290577
+China,2031,BAU,12194.180331657602
+China,2031,Moderate Mitigation,10668.426798713672
+China,2031,Aggressive Mitigation,8581.892870176047
+China,2032,BAU,12242.599581929902
+China,2032,Moderate Mitigation,10455.058262739398
+China,2032,Aggressive Mitigation,8152.798226667244
+China,2033,BAU,12284.869433032834
+China,2033,Moderate Mitigation,10245.95709748461
+China,2033,Aggressive Mitigation,7745.158315333881
+China,2034,BAU,12321.770878268266
+China,2034,Moderate Mitigation,10041.037955534915
+China,2034,Aggressive Mitigation,7357.900399567187
+China,2035,BAU,12353.985722298532
+China,2035,Moderate Mitigation,9840.217196424219
+China,2035,Aggressive Mitigation,6990.005379588827
+China,2036,BAU,12382.10917841992
+China,2036,Moderate Mitigation,9643.412852495734
+China,2036,Aggressive Mitigation,6640.505110609385
+China,2037,BAU,12406.660865942245
+China,2037,Moderate Mitigation,9450.54459544582
+China,2037,Aggressive Mitigation,6308.479855078916
+China,2038,BAU,12428.094410866177
+China,2038,Moderate Mitigation,9261.533703536901
+China,2038,Aggressive Mitigation,5993.05586232497
+China,2039,BAU,12446.805827243907
+China,2039,Moderate Mitigation,9076.303029466166
+China,2039,Aggressive Mitigation,5693.403069208721
+China,2040,BAU,12463.14083408031
+China,2040,Moderate Mitigation,8894.77696887684
+China,2040,Aggressive Mitigation,5408.7329157482845
+United States,2025,BAU,5257.3626624618555
+United States,2025,Moderate Mitigation,4806.0376
+United States,2025,Aggressive Mitigation,4658.914
+United States,2026,BAU,5253.366788714725
+United States,2026,Moderate Mitigation,4709.916848
+United States,2026,Aggressive Mitigation,4425.9682999999995
+United States,2027,BAU,5249.892133216511
+United States,2027,Moderate Mitigation,4615.71851104
+United States,2027,Aggressive Mitigation,4204.669884999999
+United States,2028,BAU,5246.8707087183175
+United States,2028,Moderate Mitigation,4523.4041408192
+United States,2028,Aggressive Mitigation,3994.436390749999
+United States,2029,BAU,5244.243396168058
+United States,2029,Moderate Mitigation,4432.936058002815
+United States,2029,Aggressive Mitigation,3794.714571212499
+United States,2030,BAU,5241.958787950684
+United States,2030,Moderate Mitigation,4344.277336842759
+United States,2030,Aggressive Mitigation,3604.978842651874
+United States,2031,BAU,5239.972182015133
+United States,2031,Moderate Mitigation,4257.391790105904
+United States,2031,Aggressive Mitigation,3424.72990051928
+United States,2032,BAU,5238.244707206474
+United States,2032,Moderate Mitigation,4172.243954303785
+United States,2032,Aggressive Mitigation,3253.493405493316
+United States,2033,BAU,5236.74256268896
+United States,2033,Moderate Mitigation,4088.79907521771
+United States,2033,Aggressive Mitigation,3090.8187352186496
+United States,2034,BAU,5235.436356578059
+United States,2034,Moderate Mitigation,4007.0230937133556
+United States,2034,Aggressive Mitigation,2936.2777984577174
+United States,2035,BAU,5234.3005308407455
+United States,2035,Moderate Mitigation,3926.882631839089
+United States,2035,Aggressive Mitigation,2789.4639085348313
+United States,2036,BAU,5233.312861211292
+United States,2036,Moderate Mitigation,3848.3449792023066
+United States,2036,Aggressive Mitigation,2649.9907131080895
+United States,2037,BAU,5232.454022337602
+United States,2037,Moderate Mitigation,3771.37807961826
+United States,2037,Aggressive Mitigation,2517.491177452685
+United States,2038,BAU,5231.707209649465
+United States,2038,Moderate Mitigation,3695.950518025895
+United States,2038,Aggressive Mitigation,2391.6166185800507
+United States,2039,BAU,5231.057810549998
+United States,2039,Moderate Mitigation,3622.0315076653774
+United States,2039,Aggressive Mitigation,2272.035787651048
+United States,2040,BAU,5230.493118496572
+United States,2040,Moderate Mitigation,3549.5908775120693
+United States,2040,Aggressive Mitigation,2158.4339982684955
+India,2025,BAU,3401.083853818871
+India,2025,Moderate Mitigation,3129.60844
+India,2025,Aggressive Mitigation,3033.8041
+India,2026,BAU,3516.956059381171
+India,2026,Moderate Mitigation,3067.0162711999997
+India,2026,Aggressive Mitigation,2882.113895
+India,2027,BAU,3632.2489039156603
+India,2027,Moderate Mitigation,3005.675945776
+India,2027,Aggressive Mitigation,2738.00820025
+India,2028,BAU,3746.965284227477
+India,2028,Moderate Mitigation,2945.5624268604797
+India,2028,Aggressive Mitigation,2601.1077902374996
+India,2029,BAU,3861.1080826377347
+India,2029,Moderate Mitigation,2886.6511783232704
+India,2029,Aggressive Mitigation,2471.0524007256245
+India,2030,BAU,3974.6801670559407
+India,2030,Moderate Mitigation,2828.9181547568046
+India,2030,Aggressive Mitigation,2347.499780689343
+India,2031,BAU,4087.6843910520556
+India,2031,Moderate Mitigation,2772.3397916616686
+India,2031,Aggressive Mitigation,2230.124791654876
+India,2032,BAU,4200.1235939281905
+India,2032,Moderate Mitigation,2716.8929958284352
+India,2032,Aggressive Mitigation,2118.618552072132
+India,2033,BAU,4312.000600789945
+India,2033,Moderate Mitigation,2662.5551359118667
+India,2033,Aggressive Mitigation,2012.6876244685252
+India,2034,BAU,4423.318222617389
+India,2034,Moderate Mitigation,2609.304033193629
+India,2034,Aggressive Mitigation,1912.053243245099
+India,2035,BAU,4534.079256335697
+India,2035,Moderate Mitigation,2557.1179525297566
+India,2035,Aggressive Mitigation,1816.4505810828439
+India,2036,BAU,4644.286484885413
+India,2036,Moderate Mitigation,2505.975593479161
+India,2036,Aggressive Mitigation,1725.6280520287016
+India,2037,BAU,4753.942677292382
+India,2037,Moderate Mitigation,2455.856081609578
+India,2037,Aggressive Mitigation,1639.3466494272666
+India,2038,BAU,4863.050588737315
+India,2038,Moderate Mitigation,2406.738959977386
+India,2038,Aggressive Mitigation,1557.379316955903
+India,2039,BAU,4971.612960625022
+India,2039,Moderate Mitigation,2358.604180777839
+India,2039,Aggressive Mitigation,1479.510351108108
+India,2040,BAU,5079.632520653293
+India,2040,Moderate Mitigation,2311.4320971622815
+India,2040,Aggressive Mitigation,1405.5348335527024
+Russia,2025,BAU,1713.6948472791983
+Russia,2025,Moderate Mitigation,1744.9135199999998
+Russia,2025,Aggressive Mitigation,1691.4977999999999
+Russia,2026,BAU,1715.8576866730846
+Russia,2026,Moderate Mitigation,1710.0152495999998
+Russia,2026,Aggressive Mitigation,1606.9229099999998
+Russia,2027,BAU,1717.5879581881934
+Russia,2027,Moderate Mitigation,1675.8149446079997
+Russia,2027,Aggressive Mitigation,1526.5767644999996
+Russia,2028,BAU,1718.9721754002805
+Russia,2028,Moderate Mitigation,1642.2986457158397
+Russia,2028,Aggressive Mitigation,1450.2479262749996
+Russia,2029,BAU,1720.0795491699503
+Russia,2029,Moderate Mitigation,1609.452672801523
+Russia,2029,Aggressive Mitigation,1377.7355299612495
+Russia,2030,BAU,1720.965448185686
+Russia,2030,Moderate Mitigation,1577.2636193454925
+Russia,2030,Aggressive Mitigation,1308.848753463187
+Russia,2031,BAU,1721.6741673982747
+Russia,2031,Moderate Mitigation,1545.7183469585827
+Russia,2031,Aggressive Mitigation,1243.4063157900275
+Russia,2032,BAU,1722.2411427683455
+Russia,2032,Moderate Mitigation,1514.803980019411
+Russia,2032,Aggressive Mitigation,1181.2360000005262
+Russia,2033,BAU,1722.6947230644023
+Russia,2033,Moderate Mitigation,1484.5079004190227
+Russia,2033,Aggressive Mitigation,1122.1742000004997
+Russia,2034,BAU,1723.0575873012476
+Russia,2034,Moderate Mitigation,1454.817742410642
+Russia,2034,Aggressive Mitigation,1066.065490000475
+Russia,2035,BAU,1723.347878690724
+Russia,2035,Moderate Mitigation,1425.7213875624293
+Russia,2035,Aggressive Mitigation,1012.762215500451
+Russia,2036,BAU,1723.5801118023048
+Russia,2036,Moderate Mitigation,1397.2069598111807
+Russia,2036,Aggressive Mitigation,962.1241047254284
+Russia,2037,BAU,1723.7658982915698
+Russia,2037,Moderate Mitigation,1369.262820614957
+Russia,2037,Aggressive Mitigation,914.017899489157
+Russia,2038,BAU,1723.9145274829816
+Russia,2038,Moderate Mitigation,1341.8775642026578
+Russia,2038,Aggressive Mitigation,868.3170045146991
+Russia,2039,BAU,1724.0334308361112
+Russia,2039,Moderate Mitigation,1315.0400129186048
+Russia,2039,Aggressive Mitigation,824.9011542889641
+Russia,2040,BAU,1724.1285535186148
+Russia,2040,Moderate Mitigation,1288.7392126602326
+Russia,2040,Aggressive Mitigation,783.6560965745158
+Japan,2025,BAU,1139.0333773212199
+Japan,2025,Moderate Mitigation,942.62966
+Japan,2025,Aggressive Mitigation,913.77365
+Japan,2026,BAU,1139.06496165307
+Japan,2026,Moderate Mitigation,923.7770668
+Japan,2026,Aggressive Mitigation,868.0849675
+Japan,2027,BAU,1139.0913527697728
+Japan,2027,Moderate Mitigation,905.3015254639998
+Japan,2027,Aggressive Mitigation,824.6807191249999
+Japan,2028,BAU,1139.1134045593794
+Japan,2028,Moderate Mitigation,887.1954949547198
+Japan,2028,Aggressive Mitigation,783.4466831687498
+Japan,2029,BAU,1139.1318305104423
+Japan,2029,Moderate Mitigation,869.4515850556255
+Japan,2029,Aggressive Mitigation,744.2743490103122
+Japan,2030,BAU,1139.1472267970305
+Japan,2030,Moderate Mitigation,852.0625533545129
+Japan,2030,Aggressive Mitigation,707.0606315597967
+Japan,2031,BAU,1139.1600915680212
+Japan,2031,Moderate Mitigation,835.0213022874227
+Japan,2031,Aggressive Mitigation,671.7075999818068
+Japan,2032,BAU,1139.1708410647711
+Japan,2032,Moderate Mitigation,818.3208762416742
+Japan,2032,Aggressive Mitigation,638.1222199827164
+Japan,2033,BAU,1139.179823088661
+Japan,2033,Moderate Mitigation,801.9544587168408
+Japan,2033,Aggressive Mitigation,606.2161089835805
+Japan,2034,BAU,1139.187328254255
+Japan,2034,Moderate Mitigation,785.9153695425039
+Japan,2034,Aggressive Mitigation,575.9053035344016
+Japan,2035,BAU,1139.1935993921725
+Japan,2035,Moderate Mitigation,770.1970621516539
+Japan,2035,Aggressive Mitigation,547.1100383576814
+Japan,2036,BAU,1139.1988394059053
+Japan,2036,Moderate Mitigation,754.7931209086207
+Japan,2036,Aggressive Mitigation,519.7545364397973
+Japan,2037,BAU,1139.2032178367872
+Japan,2037,Moderate Mitigation,739.6972584904482
+Japan,2037,Aggressive Mitigation,493.76680961780744
+Japan,2038,BAU,1139.2068763495247
+Japan,2038,Moderate Mitigation,724.9033133206392
+Japan,2038,Aggressive Mitigation,469.078469136917
+Japan,2039,BAU,1139.2099333157785
+Japan,2039,Moderate Mitigation,710.4052470542266
+Japan,2039,Aggressive Mitigation,445.62454568007115
+Japan,2040,BAU,1139.2124876440935
+Japan,2040,Moderate Mitigation,696.1971421131419
+Japan,2040,Aggressive Mitigation,423.34331839606756
+Germany,2025,BAU,745.6111255851786
+Germany,2025,Moderate Mitigation,560.87262
+Germany,2025,Aggressive Mitigation,543.70305
+Germany,2026,BAU,741.4708313339025
+Germany,2026,Moderate Mitigation,549.6551675999999
+Germany,2026,Aggressive Mitigation,516.5178974999999
+Germany,2027,BAU,737.4603043547659
+Germany,2027,Moderate Mitigation,538.6620642479999
+Germany,2027,Aggressive Mitigation,490.6920026249999
+Germany,2028,BAU,733.5754774139209
+Germany,2028,Moderate Mitigation,527.8888229630398
+Germany,2028,Aggressive Mitigation,466.1574024937499
+Germany,2029,BAU,729.8124107548944
+Germany,2029,Moderate Mitigation,517.3310465037791
+Germany,2029,Aggressive Mitigation,442.84953236906233
+Germany,2030,BAU,726.1672881031253
+Germany,2030,Moderate Mitigation,506.9844255737035
+Germany,2030,Aggressive Mitigation,420.70705575060924
+Germany,2031,BAU,722.6364127957299
+Germany,2031,Moderate Mitigation,496.84473706222946
+Germany,2031,Aggressive Mitigation,399.6717029630787
+Germany,2032,BAU,719.2162040325695
+Germany,2032,Moderate Mitigation,486.90784232098486
+Germany,2032,Aggressive Mitigation,379.6881178149248
+Germany,2033,BAU,715.9031932448202
+Germany,2033,Moderate Mitigation,477.16968547456514
+Germany,2033,Aggressive Mitigation,360.7037119241785
+Germany,2034,BAU,712.6940205773594
+Germany,2034,Moderate Mitigation,467.6262917650738
+Germany,2034,Aggressive Mitigation,342.66852632796963
+Germany,2035,BAU,709.5854314814051
+Germany,2035,Moderate Mitigation,458.27376592977237
+Germany,2035,Aggressive Mitigation,325.5351000115711
+Germany,2036,BAU,706.5742734139483
+Germany,2036,Moderate Mitigation,449.10829061117687
+Germany,2036,Aggressive Mitigation,309.2583450109925
+Germany,2037,BAU,703.6574926406353
+Germany,2037,Moderate Mitigation,440.1261247989533
+Germany,2037,Aggressive Mitigation,293.7954277604429
+Germany,2038,BAU,700.8321311388546
+Germany,2038,Moderate Mitigation,431.3236023029742
+Germany,2038,Aggressive Mitigation,279.10565637242075
+Germany,2039,BAU,698.0953235978898
+Germany,2039,Moderate Mitigation,422.6971302569148
+Germany,2039,Aggressive Mitigation,265.1503735537997
+Germany,2040,BAU,695.4442945130944
+Germany,2040,Moderate Mitigation,414.24318765177645
+Germany,2040,Aggressive Mitigation,251.89285487610968
+Brazil,2025,BAU,513.9317950835122
+Brazil,2025,Moderate Mitigation,473.35176
+Brazil,2025,Aggressive Mitigation,458.8614
+Brazil,2026,BAU,518.6454334950643
+Brazil,2026,Moderate Mitigation,463.88472479999996
+Brazil,2026,Aggressive Mitigation,435.91832999999997
+Brazil,2027,BAU,523.2179326663107
+Brazil,2027,Moderate Mitigation,454.607030304
+Brazil,2027,Aggressive Mitigation,414.12241349999994
+Brazil,2028,BAU,527.653518692555
+Brazil,2028,Moderate Mitigation,445.51488969791995
+Brazil,2028,Aggressive Mitigation,393.4162928249999
+Brazil,2029,BAU,531.9562911282364
+Brazil,2029,Moderate Mitigation,436.6045919039616
+Brazil,2029,Aggressive Mitigation,373.74547818374987
+Brazil,2030,BAU,536.1302267759087
+Brazil,2030,Moderate Mitigation,427.8725000658823
+Brazil,2030,Aggressive Mitigation,355.0582042745624
+Brazil,2031,BAU,540.1791833617689
+Brazil,2031,Moderate Mitigation,419.3150500645647
+Brazil,2031,Aggressive Mitigation,337.3052940608342
+Brazil,2032,BAU,544.1069031011289
+Brazil,2032,Moderate Mitigation,410.92874906327336
+Brazil,2032,Aggressive Mitigation,320.4400293577925
+Brazil,2033,BAU,547.9170161571277
+Brazil,2033,Moderate Mitigation,402.7101740820079
+Brazil,2033,Aggressive Mitigation,304.4180278899029
+Brazil,2034,BAU,551.6130439958802
+Brazil,2034,Moderate Mitigation,394.6559706003677
+Brazil,2034,Aggressive Mitigation,289.19712649540776
+Brazil,2035,BAU,555.1984026411639
+Brazil,2035,Moderate Mitigation,386.7628511883604
+Brazil,2035,Aggressive Mitigation,274.7372701706373
+Brazil,2036,BAU,558.676405831651
+Brazil,2036,Moderate Mitigation,379.02759416459315
+Brazil,2036,Aggressive Mitigation,261.00040666210543
+Brazil,2037,BAU,562.0502680836047
+Brazil,2037,Moderate Mitigation,371.44704228130126
+Brazil,2037,Aggressive Mitigation,247.95038632900017
+Brazil,2038,BAU,565.3231076618698
+Brazil,2038,Moderate Mitigation,364.01810143567525
+Brazil,2038,Aggressive Mitigation,235.55286701255017
+Brazil,2039,BAU,568.4979494619034
+Brazil,2039,Moderate Mitigation,356.73773940696174
+Brazil,2039,Aggressive Mitigation,223.77522366192264
+Brazil,2040,BAU,571.5777278055104
+Brazil,2040,Moderate Mitigation,349.60298461882246
+Brazil,2040,Aggressive Mitigation,212.5864624788265
+United Kingdom,2025,BAU,274.48265257830866
+United Kingdom,2025,Moderate Mitigation,306.64788
+United Kingdom,2025,Aggressive Mitigation,297.2607
+United Kingdom,2026,BAU,261.51602433928144
+United Kingdom,2026,Moderate Mitigation,300.5149224
+United Kingdom,2026,Aggressive Mitigation,282.397665
+United Kingdom,2027,BAU,248.86450504079167
+United Kingdom,2027,Moderate Mitigation,294.504623952
+United Kingdom,2027,Aggressive Mitigation,268.27778175
+United Kingdom,2028,BAU,236.5204370526077
+United Kingdom,2028,Moderate Mitigation,288.61453147296
+United Kingdom,2028,Aggressive Mitigation,254.86389266249998
+United Kingdom,2029,BAU,224.47634883664946
+United Kingdom,2029,Moderate Mitigation,282.8422408435008
+United Kingdom,2029,Aggressive Mitigation,242.12069802937492
+United Kingdom,2030,BAU,212.7249504246642
+United Kingdom,2030,Moderate Mitigation,277.18539602663077
+United Kingdom,2030,Aggressive Mitigation,230.0146631279062
+United Kingdom,2031,BAU,201.25912900580113
+United Kingdom,2031,Moderate Mitigation,271.6416881060982
+United Kingdom,2031,Aggressive Mitigation,218.51392997151086
+United Kingdom,2032,BAU,190.0719446214152
+United Kingdom,2032,Moderate Mitigation,266.20885434397616
+United Kingdom,2032,Aggressive Mitigation,207.58823347293531
+United Kingdom,2033,BAU,179.15662596449351
+United Kingdom,2033,Moderate Mitigation,260.88467725709666
+United Kingdom,2033,Aggressive Mitigation,197.20882179928853
+United Kingdom,2034,BAU,168.50656628116212
+United Kingdom,2034,Moderate Mitigation,255.66698371195469
+United Kingdom,2034,Aggressive Mitigation,187.34838070932412
+United Kingdom,2035,BAU,158.11531937179268
+United Kingdom,2035,Moderate Mitigation,250.55364403771563
+United Kingdom,2035,Aggressive Mitigation,177.9809616738579
+United Kingdom,2036,BAU,147.97659568928802
+United Kingdom,2036,Moderate Mitigation,245.5425711569613
+United Kingdom,2036,Aggressive Mitigation,169.081913590165
+United Kingdom,2037,BAU,138.0842585321856
+United Kingdom,2037,Moderate Mitigation,240.63171973382205
+United Kingdom,2037,Aggressive Mitigation,160.62781791065674
+United Kingdom,2038,BAU,128.43232033027434
+United Kingdom,2038,Moderate Mitigation,235.8190853391456
+United Kingdom,2038,Aggressive Mitigation,152.59642701512388
+United Kingdom,2039,BAU,119.01493902047656
+United Kingdom,2039,Moderate Mitigation,231.1027036323627
+United Kingdom,2039,Aggressive Mitigation,144.96660566436768
+United Kingdom,2040,BAU,109.82641451080178
+United Kingdom,2040,Moderate Mitigation,226.48064955971543
+United Kingdom,2040,Aggressive Mitigation,137.71827538114928
+South Africa,2025,BAU,465.5856455240161
+South Africa,2025,Moderate Mitigation,431.03438
+South Africa,2025,Aggressive Mitigation,417.83945
+South Africa,2026,BAU,467.10437780535875
+South Africa,2026,Moderate Mitigation,422.4136924
+South Africa,2026,Aggressive Mitigation,396.9474775
+South Africa,2027,BAU,468.5433814703703
+South Africa,2027,Moderate Mitigation,413.96541855199996
+South Africa,2027,Aggressive Mitigation,377.100103625
+South Africa,2028,BAU,469.90684201793056
+South Africa,2028,Moderate Mitigation,405.68611018096
+South Africa,2028,Aggressive Mitigation,358.24509844374995
+South Africa,2029,BAU,471.19872522153463
+South Africa,2029,Moderate Mitigation,397.5723879773408
+South Africa,2029,Aggressive Mitigation,340.33284352156244
+South Africa,2030,BAU,472.4227886641776
+South Africa,2030,Moderate Mitigation,389.620940217794
+South Africa,2030,Aggressive Mitigation,323.3162013454843
+South Africa,2031,BAU,473.58259266769335
+South Africa,2031,Moderate Mitigation,381.82852141343807
+South Africa,2031,Aggressive Mitigation,307.15039127821007
+South Africa,2032,BAU,474.681510648339
+South Africa,2032,Moderate Mitigation,374.1919509851693
+South Africa,2032,Aggressive Mitigation,291.79287171429957
+South Africa,2033,BAU,475.7227389287428
+South Africa,2033,Moderate Mitigation,366.70811196546595
+South Africa,2033,Aggressive Mitigation,277.20322812858456
+South Africa,2034,BAU,476.7093060347572
+South Africa,2034,Moderate Mitigation,359.3739497261566
+South Africa,2034,Aggressive Mitigation,263.34306672215536
+South Africa,2035,BAU,477.6440815042557
+South Africa,2035,Moderate Mitigation,352.18647073163345
+South Africa,2035,Aggressive Mitigation,250.17591338604754
+South Africa,2036,BAU,478.5297842334965
+South Africa,2036,Moderate Mitigation,345.14274131700074
+South Africa,2036,Aggressive Mitigation,237.66711771674514
+South Africa,2037,BAU,479.36899038532835
+South Africa,2037,Moderate Mitigation,338.23988649066075
+South Africa,2037,Aggressive Mitigation,225.78376183090788
+South Africa,2038,BAU,480.16414088224053
+South Africa,2038,Moderate Mitigation,331.4750887608475
+South Africa,2038,Aggressive Mitigation,214.4945737393625
+South Africa,2039,BAU,480.9175485060523
+South Africa,2039,Moderate Mitigation,324.8455869856306
+South Africa,2039,Aggressive Mitigation,203.76984505239434
+South Africa,2040,BAU,481.63140462488997
+South Africa,2040,Moderate Mitigation,318.34867524591795
+South Africa,2040,Aggressive Mitigation,193.5813527997746
+Australia,2025,BAU,425.56100346992906
+Australia,2025,Moderate Mitigation,378.99736
+Australia,2025,Aggressive Mitigation,367.3954
+Australia,2026,BAU,426.5081431658047
+Australia,2026,Moderate Mitigation,371.4174128
+Australia,2026,Aggressive Mitigation,349.02563000000004
+Australia,2027,BAU,427.3524320398056
+Australia,2027,Moderate Mitigation,363.989064544
+Australia,2027,Aggressive Mitigation,331.5743485
+Australia,2028,BAU,428.1050387628324
+Australia,2028,Moderate Mitigation,356.70928325311996
+Australia,2028,Aggressive Mitigation,314.99563107499995
+Australia,2029,BAU,428.7759191889372
+Australia,2029,Moderate Mitigation,349.5750975880576
+Australia,2029,Aggressive Mitigation,299.2458495212499
+Australia,2030,BAU,429.3739480562856
+Australia,2030,Moderate Mitigation,342.5835956362964
+Australia,2030,Aggressive Mitigation,284.2835570451874
+Australia,2031,BAU,429.90703638658385
+Australia,2031,Moderate Mitigation,335.7319237235705
+Australia,2031,Aggressive Mitigation,270.069379192928
+Australia,2032,BAU,430.3822361359877
+Australia,2032,Moderate Mitigation,329.0172852490991
+Australia,2032,Aggressive Mitigation,256.5659102332816
+Australia,2033,BAU,430.8058334818668
+Australia,2033,Moderate Mitigation,322.4369395441171
+Australia,2033,Aggressive Mitigation,243.73761472161755
+Australia,2034,BAU,431.1834319794689
+Australia,2034,Moderate Mitigation,315.9882007532347
+Australia,2034,Aggressive Mitigation,231.55073398553668
+Australia,2035,BAU,431.52002668852094
+Australia,2035,Moderate Mitigation,309.66843673817004
+Australia,2035,Aggressive Mitigation,219.97319728625982
+Australia,2036,BAU,431.82007025035
+Australia,2036,Moderate Mitigation,303.47506800340665
+Australia,2036,Aggressive Mitigation,208.97453742194682
+Australia,2037,BAU,432.08753178962553
+Australia,2037,Moderate Mitigation,297.4055666433385
+Australia,2037,Aggressive Mitigation,198.52581055084946
+Australia,2038,BAU,432.3259494199041
+Australia,2038,Moderate Mitigation,291.4574553104717
+Australia,2038,Aggressive Mitigation,188.59952002330698
+Australia,2039,BAU,432.53847704754594
+Australia,2039,Moderate Mitigation,285.6283062042623
+Australia,2039,Aggressive Mitigation,179.16954402214162
+Australia,2040,BAU,432.7279260931483
+Australia,2040,Moderate Mitigation,279.91574008017705
+Australia,2040,Aggressive Mitigation,170.21106682103454
