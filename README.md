@@ -98,7 +98,7 @@ IDEAS TIH Summer Internship 2026 — Climate Change Trend Analysis and Forecasti
 
 ## Container image (deployment)
 
-The [`deploy/`](deploy/) folder and `.github/workflows/` only exist to host the app as a container; you do not
-need them to run the project. See
+The [`deploy/`](deploy/) folder and `.github/workflows/` only exist to host the app as a container at
+<https://climate.maulikvect.dev>; you do not need them to run the project. See
 [`deploy/README.md`](deploy/README.md) for what each file does, how to build the image locally and how
 releases work.

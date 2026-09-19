@@ -1,7 +1,7 @@
 # Deployment files
 
-Everything in this folder (plus `.github/workflows/`) exists only to host the Streamlit app as a
-container. **You do not need any of it to run or use the project**; to run the app
+Everything in this folder (plus `.github/workflows/`) exists only to host the Streamlit app at
+<https://climate.maulikvect.dev>. **You do not need any of it to run or use the project**; to run the app
 locally, follow the instructions in the top-level [README](../README.md).
 
 | File | Purpose |
