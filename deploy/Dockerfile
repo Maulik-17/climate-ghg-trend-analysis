@@ -7,7 +7,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 WORKDIR /app
 
-COPY requirements-app.txt .
+COPY deploy/requirements-app.txt .
 RUN pip install -r requirements-app.txt
 
 RUN useradd --system --create-home --uid 10001 app

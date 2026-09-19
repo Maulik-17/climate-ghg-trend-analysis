@@ -19,7 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       - name: Build image
-        run: docker build -t climate:ci .
+        run: docker build -f deploy/Dockerfile -t climate:ci .
       - name: Start container
         run: |
           docker run -d --name climate -p 127.0.0.1:8501:8501 climate:ci

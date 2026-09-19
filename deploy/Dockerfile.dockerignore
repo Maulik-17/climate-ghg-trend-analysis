@@ -8,6 +8,6 @@ __pycache__
 notebook
 description.pdf
 README.md
-compose.yml
-Dockerfile
 requirements.txt
+deploy/README.md
+deploy/compose.yml
