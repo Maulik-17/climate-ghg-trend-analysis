@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  container:
+    name: Build and smoke-test the container
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - name: Build image
+        run: docker build -f deploy/Dockerfile -t climate:ci .
+      - name: Start container
+        run: |
+          docker run -d --name climate -p 127.0.0.1:8501:8501 climate:ci
+          for i in $(seq 1 60); do
+            [ "$(curl -s http://127.0.0.1:8501/_stcore/health)" = ok ] && exit 0
+            sleep 2
+          done
+          docker logs climate
+          exit 1
+      - name: Container reports healthy
+        run: |
+          for i in $(seq 1 30); do
+            [ "$(docker inspect -f '{{.State.Health.Status}}' climate)" = healthy ] && exit 0
+            sleep 3
+          done
+          docker inspect -f '{{json .State.Health}}' climate
+          exit 1
+      - name: App script runs headless without errors
+        # The health endpoint only proves the server is up. AppTest executes app.py itself, so a
+        # missing import or data file fails the build instead of the first visitor.
+        run: |
+          docker exec -i climate python -W ignore - <<'PY'
+          from streamlit.testing.v1 import AppTest
+          at = AppTest.from_file("app.py", default_timeout=180).run()
+          assert not at.exception, [e.value for e in at.exception]
+          tabs = [t.label for t in at.tabs]
+          assert len(tabs) == 6, tabs
+          print("tabs:", tabs)
+          PY
+      - name: Container logs
+        if: always()
+        run: docker logs climate

@@ -1,0 +1,104 @@
+name: Release
+
+# Production deploys are deliberate: push a version tag (for example v1.0.0) that is on main.
+on:
+  push:
+    tags: ['v*.*.*']
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build and push image
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+      packages: write
+    outputs:
+      image_ref: ${{ steps.ref.outputs.value }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - name: Tag must be on main
+        run: |
+          git fetch origin main
+          git merge-base --is-ancestor "$GITHUB_SHA" origin/main || {
+            echo "::error::$GITHUB_REF_NAME is not on main; refusing to release."
+            exit 1
+          }
+      - uses: docker/setup-buildx-action@v4
+      - uses: docker/login-action@v4
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - id: meta
+        uses: docker/metadata-action@v6
+        with:
+          images: ghcr.io/${{ github.repository }}
+          flavor: latest=false
+          tags: |
+            type=semver,pattern={{version}}
+            type=sha,format=long
+      - id: build
+        uses: docker/build-push-action@v7
+        with:
+          context: .
+          file: deploy/Dockerfile
+          push: true
+          provenance: false
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+      - id: ref
+        name: Immutable image reference
+        env:
+          DIGEST: ${{ steps.build.outputs.digest }}
+        run: echo "value=ghcr.io/${GITHUB_REPOSITORY,,}@${DIGEST}" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    name: Deploy to the VPS
+    needs: build
+    runs-on: ubuntu-24.04
+    environment:
+      name: production
+      url: https://climate.maulikvect.dev
+    concurrency:
+      group: deploy-climate
+      cancel-in-progress: false
+    steps:
+      - name: Configure SSH
+        env:
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+          VPS_KNOWN_HOSTS: ${{ secrets.VPS_KNOWN_HOSTS }}
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$VPS_SSH_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          printf '%s\n' "$VPS_KNOWN_HOSTS" > ~/.ssh/known_hosts
+      - name: Deploy (verifies the public hostname and rolls back on failure)
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+          IMAGE_REF: ${{ needs.build.outputs.image_ref }}
+          META: release=${{ github.ref_name }},sha=${{ github.sha }}
+        run: |
+          ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes \
+            "$VPS_USER@$VPS_HOST" "deploy climate $IMAGE_REF $META"
+      - name: Check that the public site is up
+        # deploy.sh already verified the public path from the VPS, which reaches the site through
+        # Cloudflare. Cloudflare answers 403 or 429 to requests from GitHub's cloud IPs, so those
+        # codes are expected here and do not mean the site is down. Anything else (5xx, timeouts,
+        # DNS or TLS failures) fails the release.
+        shell: bash
+        run: |
+          code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 20 \
+            --retry 5 --retry-delay 5 --retry-connrefused \
+            https://climate.maulikvect.dev/_stcore/health || true)
+          echo "public /_stcore/health answered: $code"
+          case "$code" in
+            200) echo "site is up" ;;
+            403|429) echo "::notice::Cloudflare blocks CI runner IPs ($code); the VPS-side public check already passed." ;;
+            *) echo "::error::unexpected response $code from the public site"; exit 1 ;;
+          esac
