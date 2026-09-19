@@ -95,3 +95,15 @@ streamlit run app.py
 ## Team
 
 IDEAS TIH Summer Internship 2026 — Climate Change Trend Analysis and Forecasting intern project.
+
+## Container image (deployment)
+
+`Dockerfile` packages only the Streamlit app (`app.py` plus the three CSVs it reads) using the pinned
+runtime set in `requirements-app.txt`. The image listens on port 8501 and is meant to run behind a
+reverse proxy; `compose.yml` reads an immutable `IMAGE_REF` and publishes no host ports. Pushing a
+version tag that is on `main` (for example `v1.0.0`) builds the image to GHCR and deploys it.
+
+```bash
+docker build -t climate-app .
+docker run --rm -p 127.0.0.1:8501:8501 climate-app   # http://127.0.0.1:8501
+```
